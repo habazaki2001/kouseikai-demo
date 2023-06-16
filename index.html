@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=-100" />
+        <meta name="format-detection" content="telephone=no" />
+        <title>Kousei Kai</title>
+        <meta name="keywords" content />
+        <meta name="description" content />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <!-- FAVICON -->
+        <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="./favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16"
+            href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/site.webmanifest">
+        <!-- STYLESHEET -->
+        <link rel="stylesheet" media="all" href="./css/slick.css" />
+        <link rel="stylesheet" media="all" href="./css/slick-theme.css" />
+        <link rel="stylesheet" media="all" href="./css/styles.css" />
+        <link rel="stylesheet" media="all" href="./css/responsive.css" />
+        <script src="./js/jquery.js"></script>
+    </head>
+
+    <body id="index">
+        <div id="wrapper">
+            <header>
+                <div class="h_box">
+                    <div class="inner h_inner">
+                        <!-- Header Content -->
+                        <div class="h_left">
+                            <p id="logo">
+                                <a href="#">
+                                    <img
+                                        src="./images/logo.png"
+                                        alt="h1h1ダミーテキスト" width="200">
+                                </a>
+                            </p>
+                            <p class="flex_col sublogo">
+                                <span class="sublogo_text">
+                                    医療法人社団 港成会
+                                </span>
+                                <span class="sublogo_text">
+                                    馬車道アイランドタワー歯科
+                                </span>
+                            </p>
+                            <ul class="flex_align">
+                                <li class="flex_center">馬車道駅直結</li>
+                                <li class="flex_center">土日診療</li>
+                            </ul>
+                        </div>
+                        <div class="h_right">
+                            <h1>h1テキストが入りますh1テキストが入りますh1テキストが入りますh1テキストが入ります</h1>
+                            <div class="h_contact pc">
+                                <p class="h_contact_tel">
+                                    <a class="tel sweetlink"
+                                        href="tel:000000000"><span>tel</span>.045-651-6488</a>
+                                </p>
+                                <p class="btn gray"><a href="#">お問い合わせ</a></p>
+                                <p class="btn green"><a href="#">Web診療予約</a></p>
+                            </div>
+                        </div>
+                        <!-- Hamburger Menu -->
+                        <div class="hamburger hamburger--3dxy">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </header>
+            <!-- end #header-->
+
+            <!-- Nav Menu -->
+            <nav class="nav_menu" style="display: none;">
+                <div class="inner">
+                    <ul class="nav_list flex_between">
+                        <li class="pic">
+                            <img src="./images/menu_img01.png"
+                                alt="tel.045-651-6488">
+                        </li>
+                        <li class="content flex_col">
+                            <p class="tel pc">
+                                <span class="tel_num"><span>tel.</span>045-651-6488</span>
+                                <span class="wrap_btn flex_between">
+                                    <span class="btn gray">
+                                        <a href>お問い合わせ</a>
+                                    </span>
+                                    <span class="btn green">
+                                        <a href>Web診療予約</a>
+                                    </span>
+                                </span>
+                                <span class="tel_icon">
+                                    <a href="#"> <img
+                                            src="./images/ft_link_img01.png"
+                                            alt="facebook"></a>
+                                    <a href="#"> <img
+                                            src="./images/ft_link_img02.png"
+                                            alt="twiter"></a>
+                                    <a href="#"> <img
+                                            src="./images/ft_link_img03.png"
+                                            alt="instagram"></a>
+                                    <a href="#">
+                                        <img
+                                            src="./images/ft_link_img04.png"
+                                            alt="BLOG">
+                                    </a>
+                                </span>
+                            </p>
+                            <p class="tel sp flex_between">
+                                <span class="btn white ">
+                                    <a href="#">
+                                        お電話はこちら>
+                                        <span><i>tel</i>.045-651-6488</span>
+                                    </a>
+                                </span>
+                                <span class="btn gray">
+                                    <a href="#">
+                                        メールでのお問い合わせ
+                                        <span>お問い合わせ</span>
+                                    </a>
+                                </span>
+                                <span class="btn green"><a href="#">
+                                        診療のご予約
+                                        <span>Web診療予約</span>
+                                    </a>
+                                </span>
+                                <span class="tel_icon flex_center">
+                                    <a href="#"> <img
+                                            src="./images/ft_link_img01.png"
+                                            alt="facebook"></a>
+                                    <a href="#"> <img
+                                            src="./images/ft_link_img02.png"
+                                            alt="twiter"></a>
+                                    <a href="#"> <img
+                                            src="./images/ft_link_img03.png"
+                                            alt="instagram"></a>
+                                    <a href="#">
+                                        <img
+                                            src="./images/ft_link_img04.png"
+                                            alt="BLOG">
+                                    </a>
+                                </span>
+                            </p>
+                            <ul class="sub_list">
+                                <li class="big">
+                                    <p class="flex_center">
+                                        <img src="./images/logo.png"
+                                            alt="医療法人社団">
+                                        <span>
+                                            医療法人社団 港成会<br>
+                                            <span class="f_big">馬車道アイランドタワー歯科</span>
+                                        </span>
+                                    </p>
+                                </li>
+                                <li class="row">
+                                    <ul>
+                                        <li><a href="#">- TOP</a></li>
+                                        <li><a href="#">- コンセプト</a></li>
+                                        <li><a href="#">- アクセス・医院紹介</a></li>
+                                        <li><a href="#">- スタッフ紹介</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">- 選ばれる理由</a></li>
+                                        <li><a href="#">- 料金表・医療費控除</a></li>
+                                        <li><a href="#">- 診療の流れ</a></li>
+                                        <li><a href="#">- お知らせ・ブログ・症例</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                            <ul class="sub_list  ">
+                                <li class="big">
+                                    <p class="bold">
+                                        <i>&#58;</i> 治療について
+                                    </p>
+                                </li>
+                                <li class="row">
+                                    <ul>
+                                        <li><a href="#">- 般歯科・根管治療</a></li>
+                                        <li><a href="#">- 歯周病治療</a></li>
+                                        <li><a href="#">- 予防・メインテナンス </a></li>
+                                        <li><a href="#">- 噛み合わせ</a></li>
+                                        <li><a href="#">- 矯正歯科</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">- セラミック</a></li>
+                                        <li><a href="#">- ホワイトニング</a></li>
+                                        <li><a href="#">- インプラント</a></li>
+                                        <li><a href="#">- 入れ歯 </a></li>
+                                        <li><a href="#">- 口腔外科 </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+            <main>
+                <!-- MainVisual start -->
+                <section class="mv">
+                    <div class="mv_bg">
+                        <ul class="main_slider">
+                            <li class=" slide_item">
+                                <h2 class="mv_ttl flex_center">
+                                    <p class="inner">
+                                        <span class="text">
+                                            「丁寧な対話」<span class="diftext">と</span>「高度な治療」<br>
+                                            <span style="letter-spacing: 0;">
+                                                いつでも不安なく通える歯科医院</span>
+                                        </span>
+                                        <span class="content">
+                                            <span class="subtext">
+                                                2021.4.1<span>（THU）</span><br>
+                                                RENEWAL OPEN
+                                            </span>
+                                            <span class="btn white"><a href="#">馬車道駅直結</a></span>
+                                            <span class="btn white"><a href="#">土日診療</a></span>
+                                        </span>
+                                    </p>
+                                </h2>
+
+                                <p class="bg"
+                                    style="background-image: url('./images/main_visual_img01.png');"></p>
+                            </li>
+                            <li class=" slide_item">
+
+                                <div class="inner mv_item flex_center">
+                                    <div class="mv_item-block">
+                                        <p class="text">
+                                            2「丁寧な対話」<span class="diftext">と</span>「高度な治療」
+                                            <span style="letter-spacing: 0;">
+                                                いつでも不安なく通える歯科医院</span>
+                                        </p>
+                                        <p class="content">
+                                            <span class="subtext">
+                                                2021.4.1<span>（THU）</span><br>
+                                                RENEWAL OPEN
+                                            </span>
+                                            <span class="btn white"><a href="#">馬車道駅直結</a></span>
+                                            <span class="btn white"><a href="#">土日診療</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p class="bg"
+                                    style="background-image: url('./images/main_visual_img01.png');"></p>
+                            </li>
+                            <li class=" slide_item">
+
+                                <div class="inner mv_item flex_center">
+                                    <div class="mv_item-block">
+                                        <p class="text">
+                                            3「丁寧な対話」<span class="diftext">と</span>「高度な治療」
+                                            <span style="letter-spacing: 0;">
+                                                いつでも不安なく通える歯科医院</span>
+                                        </p>
+                                        <p class="content">
+                                            <span class="subtext">
+                                                2021.4.1<span>（THU）</span><br>
+                                                RENEWAL OPEN
+                                            </span>
+                                            <span class="btn white"><a href="#">馬車道駅直結</a></span>
+                                            <span class="btn white"><a href="#">土日診療</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p class="bg"
+                                    style="background-image: url('./images/main_visual_img01.png');"></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <span class="submv flex_center"><img
+                            src="./images/main_visual_subimg.png"></span>
+                </section>
+                <!-- MainVisual end -->
+
+                <!-- SECTION 1 start -->
+                <section class="sec01">
+                    <div class="inner flex_center">
+                        <h3 class="sec01_title flex_col_center">
+                            <span class="top flex_col_center">
+                                <img src="./images/sec01_img02.png"
+                                    alt="患者様のみらいのために">
+                                患者様のみらいのために
+                            </span>
+                            <span class="center flex_col_center">
+                                アイランドタワーデンタルオフィスは、
+                                <span class="big"> 「馬車道アイランドタワー歯科」<span>に変わりました</span></span>
+                            </span>
+                            <span class="bottom">
+                                「医療法人港成会 アイランドタワーデンタルオフィス」は、2021年4月1日より「医療法人港成会
+                                馬車道アイランドタワー歯科」と名前を変え、リニューアルいたしました。横浜
+                                馬車道の地で歯科医療をご提供し続けて16年以上。馬車道アイランドタワー歯科は、これからも知識・技術の向上に努め、より専門的で、より患者様の満足にこだわった診療をご提供してまいります。
+                            </span>
+
+                        </h3>
+                    </div>
+                </section>
+                <!-- SECTION 1 end -->
+
+                <!-- SECTION 2 start -->
+                <section class="sec02">
+                    <div class="inner">
+                        <p class="title flex_col_center">
+                            <span class="en flex_center"><img
+                                    src="./images/sec02_img01.png"
+                                    alt="Hygiene">Hygiene</span>
+                            <span class="ja">
+                                <span>
+                                    <span class="sub_ja">馬車道アイランドタワー歯科の</span><br>
+                                    新型コロナウイルス対策について
+                                </span>
+                                <span
+                                    class="dect">医療法人港成会
+                                    馬車道アイランドタワー歯科では日ごろから衛生管理を徹底していますが、新型コロナ感染症拡大の予防対策としてさらに次のような対策を行っています。</span>
+                            </span>
+                            <span class="btn"> <a href="#">新型コロナウイルス対策について &gt;</a></span>
+                        </p>
+                    </div>
+                </section>
+                <!-- SECTION 2 end -->
+
+                <!-- SECTION 3 start -->
+                <section class="sec03">
+                </section>
+                <!-- SECTION 3 end -->
+
+                <!-- SECTION 4 start -->
+                <section class="sec04">
+                    <div class="inner">
+                        <p class="title flex_col_center">
+                            <span class="en flex_center"><img
+                                    src="./images/sec02_img01.png" alt="Hygiene">concept</span>
+                            <span class="ja">
+                                患者様の理想に合わせた<br>
+                                <span style="text-indent: -14px;">「最適な治療」を</span>
+                            </span>
+                            <span class="dect">
+                                お口の中の状況や痛みなどの症状、実現したい結果などに応じて、「最適な治療」は変わります。つまり、理想の治療は患者様の数だけ存在するということです。また「歯科医師の考える理想」と「患者様がイメージする理想」は、イコールではありません。
+                                馬車道アイランドタワー歯科では、患者様一人ひとりのお悩みに寄り添い、「こうしたい」「こうなりたい」といった理想を汲み取り患者様にとっての「最適な治療」を行っています。年齢を重ねても美しい見た目を実現するため、好きなものをしっかり噛める健康な歯を維持するため、まずはあなたの理想を教えてください。
+                            </span>
+                        </p>
+                    </div>
+                </section>
+                <!-- SECTION 4 end -->
+                <!-- SECTION 5 start -->
+                <section class="sec05">
+                    <div class="inner flex_col_center">
+                        <ul class="flex_between title">
+                            <li>
+                                <span class="pic pic01">
+                                    <span class="en flex_center"><img
+                                            src="./images/sec01_img02.png"
+                                            alt="concept.01">concept.01</span>
+                                </span>
+                                <span class="ja">
+                                    患者様との対話に時間をかけ、<br>
+                                    「理想」を形にしていきます
+                                </span>
+                            </li>
+                            <li>
+                                <span class="pic pic02">
+                                    <span class="en flex_center"><img
+                                            src="./images/sec01_img02.png"
+                                            alt="concept.02">concept.02</span>
+                                </span>
+                                <span class="ja">
+                                    「複数の選択肢」をご提案し、<br>
+                                    理想の治療を実現します
+                                </span>
+                            </li>
+                            <li>
+                                <span class="pic pic03">
+                                    <span class="en flex_center"><img
+                                            src="./images/sec01_img02.png"
+                                            alt="concept.03">concept.03</span>
+                                </span>
+                                <span class="ja">
+                                    「かかりつけ医」として<br>
+                                    継続的なサポー<span class="special">トをお約束します</span>
+                                </span>
+                            </li>
+                        </ul>
+                        <span class="btn"><a href="#">コンセプトについて ></a></span>
+                    </div>
+                </section>
+                <!-- SECTION 5 end -->
+                <!-- SECTION 6 start -->
+                <section class="sec06">
+                    <div class="inner">
+                    </div>
+                </section>
+                <!-- SECTION 6 end -->
+                <!-- SECTION 7 start -->
+                <section class="sec07">
+                    <div class="inner flex_col_center">
+                        <p class="title flex_col_center">
+                            <span class="en flex_center"><img
+                                    src="./images/sec01_img02.png" alt="Hygiene">feature</span>
+                            <span class="ja flex_col_center">
+                                <span class="ml15">
+                                    「チーム医療」で患者様に<br>
+                                    ご満足いただける歯科治療を
+                                </span>
+                                <span class="dect mt30">「馬車道アイランドタワー歯科」は、東京都と神奈川県に8医院を展開する医療法人港成会グループの歯科医院です。横浜の地で患者様のお口の健康を守り続けて16年以上、臨床実績が豊富な歯科医師が専門的な知識をすべてのスタッフと共有し、つねに患者様満足の創出や知識・技術の向上に努めています。</span>
+                            </span>
+                        </p>
+                        <ul class="flex_wrap title">
+                            <li class="item01 flex_between">
+                                <span class="pic"></span>
+                                <p class="title flex_col">
+                                    <span class="en flex_center"><img
+                                            src="./images/sec01_img02.png"
+                                            alt="feature.01">feature.01</span>
+                                    <span class="ja">
+                                        <span>
+                                            「馬車道駅」直結！徒歩1分<br>
+                                            土日診療にも対応
+                                        </span>
+                                    </span>
+                                    <span class="dect">
+                                        当院はみなとみらい線「馬車道駅」から徒歩1分のアイランドタワー内にある歯医者です。駅直結なので、雨の日でも安心。土日診療も行っているので、皆様のライフスタイルに合わせてご来院いただける、通いやすい歯科医院です。
+                                    </span>
+                                </p>
+                            </li>
+                            <li class="item02 flex_between">
+                                <span class="pic"></span>
+                                <p class="title flex_col">
+                                    <span class="en flex_center"><img
+                                            src="./images/sec01_img02.png"
+                                            alt="feature.02">feature.02</span>
+                                    <span class="ja">
+                                        <span>
+                                            将来をふまえた治療と予防で<br>
+                                            お口の健康を末永くサポート
+                                        </span>
+                                    </span>
+                                    <span class="dect">当院では治療前に丁寧なカウンセリングを行い、患者様一人ひとりに合った「オーダーメイド治療」をご提供しています。また、「単に現在の症状を取り除く治療」ではなく「将来を見据えた包括的な治療と予防」によって、お口の健康を末永く保てるようサポートいたします。
+                                    </span>
+                                </p>
+                            </li>
+                            <li class="item03 flex_between">
+                                <span class="pic"></span>
+                                <p class="title flex_col">
+                                    <span class="en flex_center"><img
+                                            src="./images/sec01_img02.png"
+                                            alt="feature.03">feature.03</span>
+                                    <span class="ja">
+                                        <span>
+                                            「診療実績×チーム医療」で<br>
+                                            患者様に不安のない環境を
+                                        </span>
+                                    </span>
+                                    <span class="dect">これまでに培ってきた診療実績とグループ経営の利点を活かし、全医院で連携しながら診療する「チーム医療体制」を構築しています。
+                                    </span>
+                                </p>
+                            </li>
+                            <li class="item04 flex_between">
+                                <span class="pic"></span>
+                                <p class="title flex_col">
+                                    <span class="en flex_center"><img
+                                            src="./images/sec01_img02.png"
+                                            alt="feature.04">feature.04</span>
+                                    <span class="ja">
+                                        <span>
+                                            歯科技工所を併設し<br>
+                                            患者様をトータルサポート
+                                        </span>
+                                    </span>
+                                    <span class="dect">グループ内で専門知識を共有し合い、医院に併設する技工所で高品質な人工歯を追求するなど、患者様のトータルサポートを行っています。
+                                    </span>
+                                </p>
+                            </li>
+                            <li class="item05 flex_between">
+                                <span class="pic"></span>
+                                <p class="title flex_col">
+                                    <span class="en flex_center"><img
+                                            src="./images/sec01_img02.png"
+                                            alt="feature.05">feature.05</span>
+                                    <span class="ja">
+                                        <span>
+                                            働きやすい環境を整え<br>
+                                            笑顔があふれる歯科医院に
+                                        </span>
+                                    </span>
+                                    <span class="dect">患者様を本当の笑顔でお迎えできるように、馬車道アイランドタワー歯科では、患者様の幸せだけでなく、スタッフの幸せも重視し「働きやすい環境づくり」に努めています。
+                                    </span>
+                                </p>
+                            </li>
+                        </ul>
+                        <span class="btn"><a href="#">当院の特長について ></a></span>
+                    </div>
+                </section>
+                <!-- SECTION 7 end -->
+                <!-- SECTION 8 start -->
+                <section class="sec08">
+                </section>
+                <!-- SECTION 8 end -->
+                <!-- SECTION 9 start -->
+                <section class="sec09">
+                    <div class="inner">
+                        <p class="title flex_col_center dif">
+                            <span class="en flex_center"><img
+                                    src="./images/sec01_img02.png"
+                                    alt="treatment menu">treatment menu</span>
+                            <span class="ja">
+                                確かな歯科治療で明るい笑顔と健康を皆様に
+                            </span>
+                        </p>
+                        <ul class="flex_wrap title">
+                            <li class="flex_between">
+                                <p class="flex_col item">
+                                    <span class="pic pl12 flex_center">
+                                        <span class="img img_01"></span>
+                                        <span class="text">歯周病治療</span>
+                                    </span>
+                                    <span class="content flex_col_center">
+                                        <span class="bold">歯ぐきの腫れや出血は早期の対応
+                                            が不可欠
+                                        </span>
+                                        <span>歯周病は、歯ぐきや歯を支える顎の骨に炎症を起こす病気です。初期段階では自覚症状がほとんどありませんが、放置すると歯を失うことにつながるため、早期の治療が大切です。歯ぐきに腫れや出血が見られる場合は、お早めにご相談ください。</span>
+                                    </span>
+                                </p>
+                                <p class="flex_col item">
+                                    <span class="pic pl13 flex_center">
+                                        <span class="img img_02"></span>
+                                        <span class="difletter text">インプラント</span>
+                                    </span>
+                                    <span class="content flex_col_center">
+                                        <span class="bold">
+                                            精密治療に欠かせない技術と設備
+                                            を導入
+
+                                        </span>
+                                        <span>人工歯根を埋め込んで失った歯の機能を回復する「インプラント治療」は、高度な技術と精度が要求される外科手術をともないます。安全に、そして正確なインプラント治療を行うために、当院では歯科用CTやシミュレーションソフト、サージカルガイドなどを導入しています。</span>
+                                    </span>
+                                </p>
+                                <p class="flex_col item">
+                                    <span class="pic flex_center">
+                                        <span class="img img_03"></span>
+                                        <span class="text difletter">セラミック治療</span>
+                                    </span>
+                                    <span class="content flex_col_center">
+                                        <span class="bold">セラミック治療で、自然な美しい
+                                            歯を再現
+                                        </span>
+                                        <span>むし歯や欠けてしまった歯の修復では、治療後の審美性も重要です。セラミックには自然歯に近い白さや透明感があるので、周囲の歯とも馴染みやすいのが特徴。当院ではご要望に合わせてさまざまなセラミック素材を使用し、マイクロスコープを用いた精度の高い治療をご提供しています。</span>
+                                    </span>
+                                </p>
+                            </li>
+                            <li class="flex_between listSmall">
+                                <p class="flex_col item">
+                                    <span class="pic  flex_center">
+                                        <span class="img img_04"></span>
+                                        <span class="text">矯正歯科</span>
+                                    </span>
+                                    <span class="content flex_col_center">
+                                        <span class="bold">
+                                            歯並びをきれいに整えて、お口ま<br>
+                                            わりの美しさと健康を守りましょ<br>
+                                            う。
+                                        </span>
+                                    </span>
+                                </p>
+                                <p class="flex_col item">
+                                    <span class="pic  flex_center">
+                                        <span class="img img_05"></span>
+                                        <span class="text difletter">ホワイトニング</span>
+                                    </span>
+                                    <span class="content flex_col_center">
+                                        <span class="bold">
+                                            気になる黄ばみや汚れをきれいに<br>
+                                            して、自然な白さの歯を実現。
+                                        </span>
+                                    </span>
+                                </p>
+                                <p class="flex_col item">
+                                    <span class="pic flex_center">
+                                        <span class="img img_06"></span>
+                                        <span class="text">入れ歯</span>
+                                    </span>
+                                    <span class="content flex_col_center">
+                                        <span class="bold">
+                                            入れ歯の製作はもちろん、修正・<br>
+                                            修理などのお悩みも解決いたしま<br>
+                                            す。
+                                        </span>
+                                    </span>
+                                </p>
+
+                                <p class="flex_col item">
+                                    <span class="pic flex_center">
+                                        <span class="img img_07"></span>
+                                        <span class="text">口腔外科</span>
+                                    </span>
+                                    <span class="content flex_col_center">
+                                        <span class="bold">
+                                            患者様の負担を軽減すべく、でき<br>
+                                            るだけ痛みを抑えた治療を心がけ<br>
+                                            ています。
+                                        </span>
+                                    </span>
+                                </p>
+                                <p class="flex_col item">
+                                    <span class="pic flex_center">
+                                        <span class="img img_08"></span>
+                                        <span class="text difline">
+                                            一般歯科<br>
+                                            根管治療
+                                        </span>
+                                    </span>
+                                    <span class="content flex_col_center">
+                                        <span class="bold">
+                                            「痛い」「しみる」といった症状<br>
+                                            がある場合は、お早めにご相談<br>
+                                            ください。
+                                        </span>
+                                    </span>
+                                </p>
+                                <p class="flex_col item">
+                                    <span class="pic flex_center">
+                                        <span class="img img_09"></span>
+                                        <span class="text">噛み合わせ</span>
+                                    </span>
+                                    <span class="content flex_col_center">
+                                        <span class="bold">
+                                            噛み合わせのズレは、お口のあ<br>
+                                            らゆるトラブルのもとになりま<br>
+                                            す。
+                                        </span>
+                                    </span>
+                                </p>
+                            </li>
+                            <li class="flex_between listSmall">
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+                <!-- SECTION 9 end -->
+                <!-- SECTION 10 start -->
+                <section class="sec10">
+                    <div class="inner flex_col_center">
+                        <p class="title flex_center ">
+                            <span class="sec10_img">
+                                <img src="./images/sec10_img01.png"
+                                    alt="予防・メンテナンス">
+                            </span>
+                            <span class="item">
+                                <span class="pic flex_center">
+                                    <span class="img"></span>
+                                    <span>予防・メンテナンス</span>
+                                </span>
+                                <span class="content flex_col_center">
+                                    <span class="bold">
+                                        むし歯や歯周病の「予防」に努めましょう
+                                    </span>
+                                    <span>むし歯で溶けたり治療で削ったりした歯質は、もとには戻りません。いくら高度な治療を施しても天然歯に勝る人工歯はないので、「治療が必要にならない健康な状態」をできるだけ維持することが望ましいといえます。定期的なメンテナンスで予防や再発防止に努めましょう。</span>
+                                </span>
+                            </span>
+                        </p>
+                        <p class="bottom">
+                            <span class="btn">
+                                <a href="#">料金表 > </a>
+                            </span>
+                            <span class="btn">
+                                <a href="#">治療の流れ ></a>
+                            </span>
+                        </p>
+                    </div>
+
+                </section>
+                <!-- SECTION 10 end -->
+                <!-- SECTION 11 start -->
+                <section class="sec11">
+                    <div class="inner flex_col_center">
+                        <p class="title flex_col_center">
+                            <span class="en flex_center"><img
+                                    src="./images/sec01_img02.png"
+                                    alt="SECOND OPINION">SECOND OPINION</span>
+                            <span class="ja">
+                                <span>
+                                    セカンドオピニオンもお気軽にご相談ください
+                                </span>
+                            </span>
+                            <span class="content flex_col_center">
+                                <span class="sub_content">「最適な歯科治療の方法」は、一つとは限りません。歯科医師の考えや技術、医院の設備によって提供できる治療、患者様にとっての最善の治療は変わることもあります。</span>
+                                <span class="block">
+                                    「歯を残したいが<span class="colorRed">抜歯が必要だと</span>言われた」<br>
+                                    「外科治療が必要と診断されたが <span class="colorRed">不安で踏み切れない」</span><br>
+                                    「主治医の治療の<span class="colorRed">説明に納得できていない」</span>
+                                </span>
+                                <span class="sub_content">このように、現在通われている歯科医院で提案された治療内容に不安を感じている方は、「セカンドオピニオン」として当院の見解をお役立てください。</span>
+                            </span>
+                            <p class="wrap_btn">
+                                <span class="btn white">
+                                    <a href="#">
+                                        お電話はこちら>
+                                        <span><i>tel</i>.045-651-6488</span>
+                                    </a>
+                                </span>
+                                <span class="btn gray">
+                                    <a href="#">
+                                        メールでのお問い合わせ
+                                        <span>お問い合わせ</span>
+                                    </a>
+                                </span>
+                                <span class="btn green"><a href="#">
+                                        診療のご予約
+                                        <span>Web診療予約</span>
+                                    </a>
+                                </span>
+                            </p>
+                        </p>
+                    </div>
+
+                </section>
+                <!-- SECTION 11 end -->
+                <!-- SECTION 12 start -->
+                <section class="sec12">
+                    <div class="inner flex_col_center">
+                        <p class="pic">
+                            <img src="./images/sec12_img04.png" alt="GREETING">
+                            <img src="./images/sec12_img03.png" alt="GREETING">
+                        </p>
+                        <p class="title flex_col_center">
+                            <span class="en flex_center"><img
+                                    src="./images/sec01_img02.png"
+                                    alt="GREETING">GREETING</span>
+                            <span class="ja flex_col_center">
+                                <span>
+                                    患者様の理想のためにできること
+                                </span>
+                                <span class="dect">
+                                    「医療法人港成会
+                                    馬車道アイランドタワー歯科」では、歯科医療で大切なのは患者様の満足と長期的な健康だと考えています。その実現のために当院が行っているのは、患者様のお話にしっかりと耳を傾け、「どんなことに困っているか」「治療によってどんな未来を実現したいか」を正しく理解すること。それをふまえて複数の治療プランを提示し、患者様に選んでいただくという過程を通して、「最適な治療」をご提供しています。
+                                    <span class="mt30">
+                                        衛生管理の徹底はもちろん、最新機器や技術を取り入れた質の高い治療を追求しているのも、患者様に笑顔で帰っていただき、快適な生活をしていただきたいから。治療後の良好な状態を末永く維持していただくため、当院では予防や再発防止など将来を見据えた「包括的歯科診療」によって長期的にお口の健康をサポートしています。
+                                    </span>
+                                </span>
+                                <span class="flex_col sub_dect">
+                                    <span>医療法人 港成会<span class="ml20">馬車道アイランドタワー歯科</span></span>
+                                    <i> 院長<span class="f_big">鈴木 真</span></i>
+                                </span>
+                            </span>
+                            <span class="wrap_btn">
+                                <span class="btn"><a href="#">スタッフ紹介 &gt;</a></span>
+                                <span class="btn"><a href="#">医院紹介 &gt;</a></span>
+                            </span>
+                        </p>
+                    </div>
+                </section>
+                <!-- SECTION 12 end -->
+                <!-- SECTION 13 start -->
+                <section class="sec13">
+                    <div class="inner flex_col_center">
+                        <p class="title flex_col_center">
+                            <span class="en flex_center"><img
+                                    src="./images/sec01_img02.png"
+                                    alt="NEWS / BLOG / CASE" />NEWS / BLOG /
+                                CASE></span>
+                            <span class="ja flex_col_center">
+                                <span>
+                                    お知らせ・ブログ・症例
+                                </span>
+                            </span>
+                        </p>
+                        <div class="tab-wrapper title">
+                            <!-- use data-target value as ID to show tab content -->
+                            <p class="tab-btns flex_between">
+                                <span class="flex_center btn tab-btn active"
+                                    data-target="tab-content-1">全て</span>
+                                <span class="flex_center btn tab-btn"
+                                    data-target="tab-content-2">お知らせ</span>
+                                <span class="flex_center btn tab-btn"
+                                    data-target="tab-content-3">ブログ</span>
+                                <span class="flex_center btn tab-btn"
+                                    data-target="tab-content-4">症例</span>
+                            </p>
+                            <ul class="tab-contents active" id="tab-content-1">
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                            </ul>
+                            <ul class="tab-contents" id="tab-content-2">
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                            </ul>
+                            <ul class="tab-contents" id="tab-content-3">
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                            </ul>
+                            <ul class="tab-contents" id="tab-content-4">
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                                <li class="content flex_center">
+                                    <span class="pic flex_center"><img
+                                            src="./images/logo.png" alt="カテゴリー"></span>
+                                    <p class="flex_col">
+                                        <span class="top">
+                                            <span class="btn">
+                                                <a href="#">カテゴリー</a>
+                                            </span>
+                                            <span class="text">2021/04/04</span>
+                                        </span>
+                                        <span class="bottom">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <span class="btn sec13_btn"><a href="#">一覧はこちら ></a></span>
+                    </div>
+                </section>
+                <!-- SECTION 12 end -->
+                <!-- SECTION 14 start -->
+                <section class="sec14">
+                    <div class="inner flex_between">
+                        <p class="info flex_col">
+                            <span class="top flex_center">
+                                <img src="./images/logo.png" alt="医療法人社団">
+                                <span>
+                                    医療法人社団 港成会<br>
+                                    <span class="f_big">馬車道アイランドタワー歯科</span>
+                                </span>
+                            </span>
+                            <span class="pic">
+                                <img src="./images/sec14_img01.png" alt="医療法人社団">
+                            </span>
+                            <span class="tel flex_col">
+                                <span class="tel_number">
+                                    <i>tel.</i>045-651-6488
+                                </span>
+                                <span class="wrap_btn">
+                                    <span class="btn gray">
+                                        <a href="#">お問い合わせ</a>
+                                    </span>
+                                    <span class="btn green">
+                                        <a href="#">Web診療予約</a>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="sup">
+                                〒231-0005 横浜市中区本町6-50-1 アイランドタワーB1F<br>
+                                JR「桜木町」駅より徒歩3分<br>
+                                横浜高速鉄道みなとみらい線「馬車道駅」直結 徒歩1分
+                            </span>
+                        </p>
+                        <iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3230.45175529239!2d139.47528207642495!3d35.93591731594019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018da7808411375%3A0x766629b9f4a7dc1f!2z5bq35q2j5Lya57eP5ZCI44Kv44Oq44OL44OD44Kv44O75bq35q2j5Lya55eF6Zmi!5e0!3m2!1sja!2s!4v1686621303423!5m2!1sja!2s"
+                            width="600" height="450" style="border:0;"
+                            allowfullscreen loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+                <!-- SECTION 14 end -->
+                <!-- SECTION 15 start -->
+                <section class="sec15">
+                    <div class="inner flex_col_center">
+                        <span>
+                            「馬車道アイランドタワー歯科」は、みなとみらい線「馬車道駅」から徒歩1分、駅直結のアイランドタワー内にある歯科医院です。駅直結なので雨の日でも濡れることなくご来院いただけます。また、土日診療も行っているので、「仕事や家庭の都合で平日の来院が難しい」という方も安心してご来院ください。馬車道アイランドタワー歯科は、東京・横浜で8院を展開する医療法人港成会グループの歯医者です。横浜の馬車道で16年以上、地域の歯科医療に携わってまいりました。その間、馬車道には横浜の市庁舎やマンションが新しく建設され、たくさんの方が仕事に通われ、またこの地に住まわれるようになりました。当院は馬車道駅近隣にお勤めされる方やお住いの方々に確かな歯科医療を受けられる、身近な歯医者としてこれからも皆様の健康を歯科医療で貢献してまいります。馬車道アイランドタワー歯科が大事にしているのは、治療前のカウンセリングの時間です。ここでじっくり患者様と向き合い、一人ひとりに寄り添った歯科治療の提供を心がけています。診療室は患者様のプライバシーを考慮した全室個室。最新の歯科用CTやマイクロスコープをはじめとした医療機器を導入し、精密かつ正確な治療を行っています。歯の治療だけでなく、予防や再発防止を考えた「包括的歯科診療」を通して、患者様のお口の健康を末永くサポートいたします。
+                        </span>
+                        <img src="./images/sec15_img01.png" class="pc"
+                            alt="「馬車道アイランドタワー歯科」">
+                        <img src="./images/sec15_img01_sp.png" class="sp"
+                            alt="「馬車道アイランドタワー歯科」">
+                    </div>
+                </section>
+                <!-- SECTION 15 end -->
+
+            </main>
+            <!-- end #main-->
+
+            <footer>
+                <!-- FOOTER LINK -->
+                <section class="ft_link pc">
+                    <div class="inner">
+                        <ul class="pc">
+                            <li class="big">
+                                <p class="flex_center">
+                                    <img src="./images/logo.png" alt="医療法人社団">
+                                    <span>
+                                        医療法人社団 港成会<br>
+                                        <span class="f_big">馬車道アイランドタワー歯科</span>
+                                    </span>
+                                </p>
+                            </li>
+                            <li class="row">
+                                <ul>
+                                    <li><a href="#">- TOP</a></li>
+                                    <li><a href="#">- コンセプト</a></li>
+                                    <li><a href="#">- アクセス・医院紹介</a></li>
+                                    <li><a href="#">- スタッフ紹介</a></li>
+                                    <li><a href="#">- 選ばれる理由</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">- 料金表・医療費控除</a></li>
+                                    <li><a href="#">- 診療の流れ</a></li>
+                                    <li><a href="#">- お知らせ・ブログ・症例</a></li>
+                                    <li class="pic">
+                                        <a href="#"> <img
+                                                src="./images/ft_link_img01.png"
+                                                alt="facebook"></a>
+                                        <a href="#"> <img
+                                                src="./images/ft_link_img02.png"
+                                                alt="twiter"></a>
+                                        <a href="#"> <img
+                                                src="./images/ft_link_img03.png"
+                                                alt="instagram"></a>
+                                        <a href="#">
+                                            <img
+                                                src="./images/ft_link_img04.png"
+                                                alt="BLOG">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <ul class="w50 pc">
+                            <li class="big">
+                                <p>
+                                    治療について
+                                </p>
+                            </li>
+                            <li class="row">
+                                <ul>
+                                    <li><a href="#">- 一般歯科・根管治療</a></li>
+                                    <li><a href="#">- 歯周病治療</a></li>
+                                    <li><a href="#">- 予防・メインテナンス </a></li>
+                                    <li><a href="#">- 噛み合わせ</a></li>
+                                    <li><a href="#">- 矯正歯科</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">- セラミック</a></li>
+                                    <li><a href="#">- ホワイトニング</a></li>
+                                    <li><a href="#">- インプラント</a></li>
+                                    <li><a href="#">- 入れ歯 </a></li>
+                                    <li><a href="#">- 口腔外科 </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="ft_link sp">
+                    <a href="#"> <img
+                            src="./images/ft_link_img01.png"
+                            alt="facebook"></a>
+                    <a href="#"> <img
+                            src="./images/ft_link_img02.png"
+                            alt="twiter"></a>
+                    <a href="#"> <img
+                            src="./images/ft_link_img03.png"
+                            alt="instagram"></a>
+                    <a href="#">
+                        <img
+                            src="./images/ft_link_img04.png"
+                            alt="BLOG">
+                    </a>
+                </section>
+
+                <address>Copyright &copy; BASHAMICHI ISLAND TOWER DENTAL
+                    CLINIC.All Rights Reserved.</address>
+
+                <!-- FUNCTION CONTACT SP -->
+                <ul class="sp_contact sp">
+                    <li class="sp_contact_tel"><a class="sweetlink"
+                            href="tel:000000000"><span>000000000</span></a></li>
+                    <li class="sp_contact_mail"><a href="#"><span>ダミーテキスト</span></a></li>
+                </ul>
+            </footer>
+
+            <p class="to_top flex_center">
+                <svg id="Layer_2" data-name="Layer 2"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.28 15.64">
+                    <defs>
+                    </defs>
+                    <g id="_レイヤー_3" data-name="レイヤー 3">
+                        <polygon class="cls-1"
+                            points="14.14 3 26.78 15.64 28.28 14.14 14.14 0 0 14.14 1.5 15.64 14.14 3" />
+                    </g>
+                </svg>
+            </p>
+            <!-- end #footer -->
+        </div>
+
+        <script src="./js/slick.min.js"></script>
+        <script src="./js/sweetlink.js"></script>
+        <script src="./js/common.js"></script>
+        <script src="./js/top.js"></script>
+    </body>
+
+</html>
