@@ -498,11 +498,11 @@
     .mv .submv .submv_text {
         font-size: 11.4px;
         top: -19px;
-        left: -51px;
+        left: -12%;
     }
     .mv .submv .submv_wrap {
         margin-top: 22px;
-        left: -7px;
+        left: -1%;
     }
     .mv .submv .submv_wrap span {
         margin-right: 20px;
