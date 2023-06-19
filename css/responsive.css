@@ -171,9 +171,13 @@
         width: calc(50% - 10px);
         display: block;
     }
-    .nav_menu .content .tel .btn.gray > span,
-    .nav_menu .content .tel .btn.green > span{
-       font-size: 135%;
+    .nav_menu .content .tel .btn.gray a,
+    .nav_menu .content .tel .btn.green  a {
+        font-size: 12px;
+    }
+    .nav_menu .content .tel .btn.gray a > span,
+    .nav_menu .content .tel .btn.green  a > span{
+       font-size: 150%;
     }
     .nav_menu .content .tel .tel_icon {
         width: 100%;
@@ -206,6 +210,13 @@
 
     .nav_list .parent .sub ul li:not(:last-child) {
         border-bottom: 1px solid var(--mcolor)
+    }
+    .nav_menu .sub_list {
+        margin-top: 5px;
+    }
+
+    .nav_menu .sub_list .big > p > img {
+        width: 190px;
     }
 
     .nav_list a {
@@ -373,7 +384,7 @@
 
     .btn a {
         width: 100%;
-        height: 50px;
+        height: 45px;
     }
 
     main {
@@ -426,9 +437,9 @@
 
     .mv_item,
     .mv_ttl {
-        top: 104%;
-        height: auto;
-        padding: 30px 0px 20px;
+        top: 100%;
+        height: 160px;
+        padding: 0px 0px 0px;
         background: linear-gradient(318deg, rgba(255, 255, 255, 0) -17%, rgb(0 0 0 / 60%) 143%);
     }
 
@@ -436,12 +447,17 @@
         font-size: 22px;
         width: 100%;
         text-indent: -11px;
+        top: 0px;
+        margin-top: 0;
+        margin-left: -11px;
     }
 
     .slide_item .content {
         width: 100%;
         align-items: center;
         justify-content: start;
+        margin-top: 0;
+
     }
 
     .slide_item .content .subtext {
@@ -455,7 +471,7 @@
         margin-left: 0px;
         font-size: 13px;
         width: 100%;
-        padding: 8px 10px 6px;
+        padding: 7px 10px 5px;
     }
 
     .slide_item .content .btn.white:last-child a {
@@ -469,14 +485,31 @@
 
     .mv .submv {
         width: 100%;
-        height: 200px;
+        height: 220px;
         padding: 0;
-        bottom: -311px;
+        left: 0;
+        bottom: -277px;
         justify-content: start;
     }
 
     .mv .submv img {
-        margin: -25px 0px 0px -7px;
+        margin: 12px 0px 0px -7px;
+    }
+    .mv .submv .submv_text {
+        font-size: 11.4px;
+        top: -19px;
+        left: -51px;
+    }
+    .mv .submv .submv_wrap {
+        margin-top: 22px;
+        left: -7px;
+    }
+    .mv .submv .submv_wrap span {
+        margin-right: 20px;
+        font-size: 11px;
+    }
+    .mv .submv .submv_wrap a {
+        font-size: 12px;
     }
 
     /* sec01 */
@@ -496,7 +529,7 @@
     }
 
     .sec01 .inner {
-        padding-top: 120px;
+        padding-top: 90px;
     }
 
     .sec01 .top {
@@ -530,8 +563,24 @@
         line-height: 2em;
     }
 
+    /* sec02 */
+
+    .sec02 {
+        padding: 44px 15px 44px;
+    }
+   
+    .sec02 .title {
+        align-items: center;
+    }
+
+    .sec02 .title .en, .sec04 .title .en {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
     .sec02 .title .ja {
         flex-direction: column;
+        margin-top: 8px;
         align-items: center;
     }
 
@@ -552,11 +601,19 @@
         text-align: left;
         font-size: 14px;
         margin-top: 31px;
+        width: 100%;
+        letter-spacing: 0.15em;
+    }
+    .sec02 .title .ja .dect:before {
+        height: 1px;
+        width: 50%;
+        left: 24%;
+        top: -17px;
     }
 
     .sec02 .btn {
         position: unset;
-        margin: 30px auto 0;
+        margin: 15px auto 0;
         width: 90%;
     }
 
@@ -564,14 +621,6 @@
         width: 100%;
     }
 
-    /* sec02 */
-    .sec02 {
-        padding: 60px 15px 60px;
-    }
-
-    .sec02 .title {
-        align-items: center;
-    }
 
     /* sec03 */
     .sec03 {
@@ -719,7 +768,7 @@
 
     .sec07 ul li .title .ja {
         margin-bottom: 25px;
-        font-size: 24px;
+        font-size: 20px;
         letter-spacing: 0;
     }
 
@@ -906,8 +955,9 @@
     /* sec11 */
     .sec11 {
         margin-top: -39px;
-        padding: 63px 0 140px;
+        padding: 63px 0 100px;
         background-size: cover;
+       
     }
 
     .sec11 .inner {
@@ -929,7 +979,7 @@
     .sec11 .inner .title .ja {
         margin: 0px 0 10px;
         text-align: center;
-        width: 80%;
+        width: 82%;
     }
 
     .sec11 .content .sub_content {
@@ -938,7 +988,9 @@
 
     .sec11 .content .block {
         width: 100%;
-        font-size: 16px;
+        font-size: 15px;
+        padding: 10px;
+        line-height: 2em;
     }
 
     .sec11 .wrap_btn {
@@ -951,6 +1003,7 @@
     .sec11 .btn.white {
         width: 100%;
         margin-bottom: 20px;
+        margin-right: 0;
     }
 
     .sec11 .btn a {
@@ -965,7 +1018,7 @@
 
     .sec11 .btn.gray,
     .sec11 .btn.green {
-        margin-left: 0;
+        margin: 0;
         width: calc(50% - 6px);
     }
 
@@ -975,11 +1028,8 @@
 
     /* sec12 */
     .sec12 {
-        padding: 0 0 147px;
-    }
-
-    .sec12 .title span {
-        width: 100%;
+        padding: 0 0 100px;
+    background-position-x: 45%;
     }
 
     .sec12::before {
@@ -1016,6 +1066,9 @@
         padding: 200px 15px 50px;
         position: unset;
     }
+    .sec12 .title .ja > span:first-child {
+        letter-spacing: -0.06em;
+    }
 
     .sec12 .title .ja .dect {
         width: 100%;
@@ -1024,6 +1077,7 @@
 
     .sec12 .title .wrap_btn {
         justify-content: space-between;
+        width: 100%;
     }
 
     .sec12 .title .btn {
@@ -1130,23 +1184,25 @@
     }
 
     .sec14 .info .top {
-        font-size: 15.87px;
+        margin-bottom: 15px;
     }
 
     .sec14 .info .top img {
-        width: 60px;
+        width: 290px;
         height: auto;
-    }
-
-    .sec14 .info .top .f_big {
-        font-size: 16.94px;
     }
 
     .sec14 .info .pic {
         width: auto;
         height: 150px;
-        margin-top: -26px;
-        margin-left: -22px;
+        margin: -26px 0 15px -16px;
+    }
+    .sec14 .info .pic > span {
+        font-size: 13.4px;
+        margin-left: 17px;
+    }
+    .sec14 .info .pic .text01 {
+        margin-top: -16px;
     }
 
     .sec14 .info .pic img {
@@ -1156,6 +1212,7 @@
     .sec14 .info .tel {
         font-size: 34px;
         width: 100%;
+        margin-bottom: 20px;
     }
 
     .sec14 .info .tel .tel_number i {
@@ -1172,7 +1229,8 @@
 
     .sec14 .info .tel .wrap_btn .btn a {
         width: 100%;
-        height: 45px;
+        height: 40px;
+        font-size: 14px;
     }
 
     .sec14 .info .sup {
