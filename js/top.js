@@ -9,8 +9,8 @@ $(window).bind('load', function () {
             speed: 1000,
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 1000,
+            // autoplay: true,
+            // autoplaySpeed: 1000,
             arrows: false,
             centerMode: false,
             centerPadding: 0,
@@ -41,13 +41,13 @@ $(window).bind('load', function () {
             $('.h_box .h_inner').addClass("is_active")
             $('.h_box.scroll_fixed').addClass("is_active");
             $('.to_top').removeClass('show')
-            $("body").css("overflow", "hidden");
+            $("body").css("overflow-y", "hidden");
             
         }
         else {
             $('.h_box .h_inner').removeClass("is_active")
             $('.h_box.scroll_fixed').removeClass("is_active");
-            $("body").css("overflow", "scroll");
+            $("body").css("overflow-y", "scroll");
         }
     });
   
